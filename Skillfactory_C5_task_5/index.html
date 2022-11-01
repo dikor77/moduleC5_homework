@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skillfactory_C5_task_5</title>
+</head>
+<body>
+    <h1>Skillfactory, Module C5, Homework. Final task</h1>
+    <p>Send fetch request to URL https://picsum.photos/v2/list?page=${page}&limit=${limit}</p>
+    <p>Check page and limit are in the range [1..10]</p>
+    <div class="input_wrap">
+        <lable>Page number
+            <input type="number" class="input-field input-page" min="1" max="10" value="1">
+        </lable>
+        
+        <lable>Photo Limit
+            <input type="number" class="input-field input-limit" min="1" max="10" value="1">
+        </lable>
+        
+        <button class="btn j-btn-request">Get data</button>
+        <button class="btn j-btn-clear">Clear cache</button>
+    </div>
+    <div class="j-result">Results will be here</div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
